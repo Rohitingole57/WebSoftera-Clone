@@ -1,0 +1,149 @@
+.img1 {
+    padding-top: 30px;
+    height: 530px;
+    /* background-clip: padding-box; */
+}
+
+.h4 {
+    padding-top: 30px;
+padding-bottom: 0;
+}
+
+.h11 {
+    padding-top: 10px;
+    line-height: 65px;
+    padding-bottom: 30px;
+    color: #4CAF50;
+}
+.p1{
+    padding-bottom: 30px;
+}
+.btn1 {
+    background-color: #D04820;
+    /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.btn1:hover {
+    background-color: #4CAF50;
+}
+.cont1{
+    margin-bottom: 30px;
+}
+
+/* second row of webSoftera */
+.row2{
+    background-color: rgb(238, 238, 238);
+}
+.h2{
+text-align: center;
+}
+.p2{
+    /* margin: 0 340px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    text-align: center;
+}
+.btn2 {
+    background-color: #ffffff;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    color:#4CAF50;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.btn2:hover{
+ color:#ffffff;
+ background-color: #4CAF50;
+}
+.comp1{
+    padding: 20px;
+    background-color: #4CAF50;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 15px 155px 0 155px;
+}
+.comp2{
+    padding: 20px;
+    background-color: #D04820;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 15px 155px 0 155px;
+}.comp3{
+    padding: 20px;
+    background-color: #4CAF50;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 15px 155px 0 155px;
+}
+
+/* the below code is for the search box */
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #DC3545;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.input-search::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+    width: 300px;
+    border-radius: 0px;
+    /* background-color: transparent; */
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    /* background-color: transparent; */
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
